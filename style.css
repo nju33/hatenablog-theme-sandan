@@ -241,6 +241,17 @@ body {
   margin-bottom: 1em;
 }
 
+.header-image-enable #blog-title #title a, .header-image-enable #blog-title #blog-description {
+  color: inherit;
+  text-shadow: 0 0 0;
+}
+
+.header-image-enable #blog-title #title, .header-image-enable #blog-title #blog-description {
+  position: relative;
+  top: 34%;
+  left: 2%;
+}
+
 .date {
   padding: 0.38em;
   background-color: #77a2b3;
@@ -380,6 +391,7 @@ img.hatena-fotolife:hover, .magnifiable:hover {
 .permalink.pager {
   position: relative;
   margin: 0 1em;
+  height: 2.1em;
 }
 
 .pager-prev {
@@ -441,6 +453,9 @@ img.hatena-fotolife:hover, .magnifiable:hover {
 .hatena-module-body ul, .hatena-module-body ol {
   margin-left: 1em;
   line-height: 1.5;
+}
+.hatena-module-body li a:hover {
+  text-decoration: underline;
 }
 
 .id {
