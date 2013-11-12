@@ -357,15 +357,20 @@ img.hatena-fotolife:hover, .magnifiable:hover {
 .entry-footer-section {
   text-align: right;
   z-index: 110;
+  float: right;
+  margin-top: 10px;
 }
 
 .hatena-star-container {
   width: 25em;
+  float: left;
+  margin-bottom: 1em;
 }
 
-.hatena-star-container, .social-buttons, #google_afc_user, .comment-box {
-  position: relative;
-  bottom: 2.7em;
+.google_afc_blocklink,
+#google_afc_user,
+.customized-footer {
+  clear: both;
 }
 
 .comment-box .comment {
